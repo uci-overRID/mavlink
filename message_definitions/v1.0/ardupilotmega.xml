@@ -1873,5 +1873,11 @@
       <field type="uint16_t[4]" name="rpm" units="rpm">RPM (eRPM).</field>
       <field type="uint16_t[4]" name="count">count of telemetry packets received (wraps at 65535).</field>
     </message>
+    <message id="12000" name="UAV_FOUND">
+      <description>Found a UAV</description>
+      <field type="double" name="lat"></field>
+      <field type="double" name="lon"></field>
+      <field type="double" name="alt"></field>
+    </message>
   </messages>
 </mavlink>
