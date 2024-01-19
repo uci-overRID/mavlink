@@ -1876,7 +1876,7 @@
       <field type="double" name="lon"></field>
       <field type="double" name="alt"></field>
     </message>
-    <message id="12000" name="ODID_HEARTBEAT">
+    <message id="12001" name="ODID_HEARTBEAT">
       <description>ODIDScanner heartbeat</description>
       <field type="uint8_t" name="count"></field>
     </message>
