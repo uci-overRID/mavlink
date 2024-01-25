@@ -1875,6 +1875,7 @@
       <field type="double" name="lat"></field>
       <field type="double" name="lon"></field>
       <field type="double" name="alt"></field>
+      <field type="uint8_t[6]" name="mac"></field>
     </message>
     <message id="12001" name="ODID_HEARTBEAT">
       <description>ODIDScanner heartbeat</description>
