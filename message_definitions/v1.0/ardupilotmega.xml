@@ -1895,6 +1895,9 @@
       <field type="double" name="lon"></field>
       <field type="double" name="alt"></field>
       <field type="uint8_t[6]" name="mac"></field>
+      <field type="uint16_t" name="heading" units="cdeg">Course over ground</field>
+      <field type="uint16_t" name="hor_velocity" units="cm/s">The horizontal velocity</field>
+      <field type="int16_t" name="ver_velocity" units="cm/s">The vertical velocity. Positive is up</field>
     </message>
     <message id="12001" name="ODID_HEARTBEAT">
       <description>ODIDScanner heartbeat</description>
