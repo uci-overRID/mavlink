@@ -2970,7 +2970,10 @@
       <entry value="0" name="MAV_COLLISION_SRC_ADSB">
         <description>ID field references ADSB_VEHICLE packets</description>
       </entry>
-      <entry value="1" name="MAV_COLLISION_SRC_MAVLINK_GPS_GLOBAL_INT">
+       <entry value="1" name="MAV_COLLISION_SRC_ODID">
+        <description>ID field references RID_VEHICLE packets</description>
+      </entry>
+      <entry value="2" name="MAV_COLLISION_SRC_MAVLINK_GPS_GLOBAL_INT">
         <description>ID field references MAVLink SRC ID</description>
       </entry>
     </enum>
